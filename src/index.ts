@@ -9,9 +9,10 @@ import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 import ip from "ip";
 import { Json } from "mylas";
+import { join } from "path";
 
 const expressPort = 4270;
-const { version } = Json.loadS<{ version: string; }>("../pacckage.json");
+const { version } = Json.loadS<{ version: string; }>(join(__dirname, "../pacckage.json"));
 
 async function recover(buf: Buffer) {
     try {
