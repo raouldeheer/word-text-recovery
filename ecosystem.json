@@ -1,0 +1,23 @@
+{
+    "apps": [
+        {
+            "name": "word-text-recovery",
+            "script": "./dist/index.js",
+            "env": {
+                "NODE_ENV": "production"
+            }
+        }
+    ],
+    "deploy": {
+        "production": {
+            "user": "root",
+            "host": [
+                "192.168.3.104"
+            ],
+            "ref": "origin/main",
+            "repo": "git@github.com:raouldeheer/word-text-recovery.git",
+            "path": "/mnt/apps/word-text-recovery",
+            "post-deploy": "npm run post-deploy && pm2 startOrRestart ecosystem.config.json --env production"
+        }
+    }
+}
