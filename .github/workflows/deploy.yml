@@ -16,6 +16,9 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: "main"
+      - uses: pnpm/action-setup@v2.2.1
+        name: Install pnpm
+        id: pnpm-install
       - run: pnpm i
       - name: Run deploy
         run: pm2 deploy production
