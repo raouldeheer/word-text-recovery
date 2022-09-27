@@ -8,8 +8,10 @@ import morgan from 'morgan';
 import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 import ip from "ip";
+import { Json } from "mylas";
 
 const expressPort = 4270;
+const { version } = Json.loadS<{ version: string; }>("../pacckage.json");
 
 async function recover(buf: Buffer) {
     try {
@@ -54,6 +56,12 @@ express()
             fileSize: 50 * 1024 * 1024,
         },
     }))
+    .get("/version", (req, res) => {
+        res.send(version);
+    })
+    .get("/status", (req, res) => {
+        res.sendStatus(200);
+    })
     .post("/",
         (req, res) => {
             if (!req.files || Object.keys(req.files).length === 0) {

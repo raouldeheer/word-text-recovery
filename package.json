@@ -22,6 +22,7 @@
     "helmet": "^6.0.0",
     "ip": "^1.1.8",
     "morgan": "^1.10.0",
+    "mylas": "^2.1.12",
     "node-fetch": "2",
     "xml-formatter": "^2.6.1"
   },
