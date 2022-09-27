@@ -12,7 +12,7 @@ import { Json } from "mylas";
 import { join } from "path";
 
 const expressPort = 4270;
-const { version } = Json.loadS<{ version: string; }>(join(__dirname, "../pacckage.json"));
+const { version } = Json.loadS<{ version: string; }>(join(__dirname, "../package.json"));
 
 async function recover(buf: Buffer) {
     try {
