@@ -17,7 +17,7 @@
             "ref": "origin/main",
             "repo": "git@github.com:raouldeheer/word-text-recovery.git",
             "path": "/mnt/apps/word-text-recovery",
-            "post-deploy": "npm run post-deploy && pm2 startOrRestart ecosystem.config.json --env production"
+            "post-deploy": "npm run post-deploy && pm2 startOrRestart ecosystem.json --env production"
         }
     }
 }
