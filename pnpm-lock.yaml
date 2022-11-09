@@ -19,6 +19,8 @@ specifiers:
   mylas: ^2.1.12
   node-fetch: 2.6.7
   nodemon: ^2.0.20
+  pnpm: ^7.14.2
+  typescript: ^4.8.4
   xml-formatter: ^2.6.1
 
 dependencies:
@@ -43,6 +45,8 @@ devDependencies:
   '@types/morgan': 1.9.3
   '@types/node-fetch': 2.6.2
   nodemon: 2.0.20
+  pnpm: 7.14.2
+  typescript: 4.8.4
 
 packages:
 
@@ -707,6 +711,12 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
+  /pnpm/7.14.2:
+    resolution: {integrity: sha512-NSxrIaRW07jFQQ1fPFFOA8eMfuogsMeygOKd3zaFgyJBdo1oh61jl2JjWc+w0XNzWIMG7/v9HK7nP8RTL5NO3g==}
+    engines: {node: '>=14.6'}
+    hasBin: true
+    dev: true
+
   /proxy-addr/2.0.7:
     resolution: {integrity: sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==}
     engines: {node: '>= 0.10'}
@@ -869,6 +879,12 @@ packages:
       media-typer: 0.3.0
       mime-types: 2.1.35
     dev: false
+
+  /typescript/4.8.4:
+    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
 
   /undefsafe/2.0.5:
     resolution: {integrity: sha512-WxONCrssBM8TSPRqN5EmsjVrsv4A8X12J4ArBiiayv3DyyG3ZlIg6yysuuSYdZsVz3TKcTg2fd//Ujd4CHV1iA==}
