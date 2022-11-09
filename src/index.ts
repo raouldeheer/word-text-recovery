@@ -11,7 +11,7 @@ import ip from "ip";
 import { Json } from "mylas";
 import { join } from "path";
 
-const expressPort = 4271;
+const expressPort = 3000;
 const { version } = Json.loadS<{ version: string; }>(join(__dirname, "../package.json"));
 
 async function recover(buf: Buffer) {
