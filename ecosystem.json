@@ -11,9 +11,7 @@
     "deploy": {
         "production": {
             "user": "root",
-            "host": [
-                "192.168.3.157"
-            ],
+            "host": "localhost",
             "ref": "origin/main",
             "repo": "git@github.com:raouldeheer/word-text-recovery.git",
             "path": "/root/app",
