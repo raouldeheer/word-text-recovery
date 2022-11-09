@@ -12,11 +12,11 @@
         "production": {
             "user": "root",
             "host": [
-                "192.168.3.104"
+                "192.168.3.157"
             ],
             "ref": "origin/main",
             "repo": "git@github.com:raouldeheer/word-text-recovery.git",
-            "path": "/mnt/apps/word-text-recovery",
+            "path": "/root/app",
             "post-deploy": "npm run post-deploy && pm2 startOrRestart ecosystem.json --env production"
         }
     }
