@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   adm-zip:
-    specifier: ^0.5.9
-    version: 0.5.9
+    specifier: ^0.5.10
+    version: 0.5.10
   cors:
     specifier: ^2.8.5
     version: 2.8.5
@@ -21,8 +21,8 @@ dependencies:
     specifier: ^6.6.0
     version: 6.6.0(express@4.18.1)
   helmet:
-    specifier: ^6.0.0
-    version: 6.0.0
+    specifier: ^7.0.0
+    version: 7.0.0
   ip:
     specifier: ^1.1.8
     version: 1.1.8
@@ -180,8 +180,8 @@ packages:
       negotiator: 0.6.3
     dev: false
 
-  /adm-zip@0.5.9:
-    resolution: {integrity: sha512-s+3fXLkeeLjZ2kLjCBwQufpI5fuN+kIGBxu6530nVQZGVol0d7Y/M88/xw9HGGUcJjKf8LutN3VPRUBq6N7Ajg==}
+  /adm-zip@0.5.10:
+    resolution: {integrity: sha512-x0HvcHqVJNTPk/Bw8JbLWlWoo6Wwnsug0fnYYro1HBrjxZ3G7/AZk7Ahv8JwDe1uIcz8eBqvu86FuF1POiG7vQ==}
     engines: {node: '>=6.0'}
     dev: false
 
@@ -521,9 +521,9 @@ packages:
       function-bind: 1.1.1
     dev: false
 
-  /helmet@6.0.0:
-    resolution: {integrity: sha512-FO9RpR1wNJepH/GbLPQVtkE2eESglXL641p7SdyoT4LngHFJcZheHMoyUcjCZF4qpuMMO1u5q6RK0l9Ux8JBcg==}
-    engines: {node: '>=14.0.0'}
+  /helmet@7.0.0:
+    resolution: {integrity: sha512-MsIgYmdBh460ZZ8cJC81q4XJknjG567wzEmv46WOBblDb6TUd3z8/GhgmsM9pn8g2B80tAJ4m5/d3Bi1KrSUBQ==}
+    engines: {node: '>=16.0.0'}
     dev: false
 
   /http-errors@2.0.0:
