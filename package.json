@@ -14,7 +14,7 @@
   "author": "Raoul de Heer",
   "license": "MIT",
   "dependencies": {
-    "adm-zip": "^0.5.9",
+    "adm-zip": "^0.5.10",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "express-fileupload": "^1.4.0",
