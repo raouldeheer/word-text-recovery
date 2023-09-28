@@ -56,8 +56,8 @@ devDependencies:
     specifier: ^1.1.0
     version: 1.1.0
   '@types/morgan':
-    specifier: ^1.9.3
-    version: 1.9.3
+    specifier: ^1.9.6
+    version: 1.9.6
   '@types/node-fetch':
     specifier: ^2.6.4
     version: 2.6.4
@@ -141,8 +141,8 @@ packages:
     resolution: {integrity: sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==}
     dev: true
 
-  /@types/morgan@1.9.3:
-    resolution: {integrity: sha512-BiLcfVqGBZCyNCnCH3F4o2GmDLrpy0HeBVnNlyZG4fo88ZiE9SoiBe3C+2ezuwbjlEyT+PDZ17//TAlRxAn75Q==}
+  /@types/morgan@1.9.6:
+    resolution: {integrity: sha512-xfKogz5WcKww2DAiVT9zxMgrqQt+Shq8tDVeLT+otoj6dJnkRkyJxMF51mHtUc3JCPKGk5x1EBU0buuGpfftlQ==}
     dependencies:
       '@types/node': 18.7.23
     dev: true
