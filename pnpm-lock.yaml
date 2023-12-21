@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^2.8.17
     version: 2.8.17
   '@types/express':
-    specifier: ^4.17.17
-    version: 4.17.17
+    specifier: ^4.17.21
+    version: 4.17.21
   '@types/express-fileupload':
     specifier: ^1.4.4
     version: 1.4.4
@@ -108,7 +108,7 @@ packages:
     resolution: {integrity: sha512-kxCs5oJ40JPhvh3LpxCeGfuSZIl8/6bk85u1YqNcIbfQCmUm3u+Ao1oOiSt/VdbEPs+V3JQg8giqxAyqXlpbWg==}
     dependencies:
       '@types/busboy': 1.5.0
-      '@types/express': 4.17.17
+      '@types/express': 4.17.21
     dev: true
 
   /@types/express-serve-static-core@4.17.35:
@@ -120,8 +120,8 @@ packages:
       '@types/send': 0.17.1
     dev: true
 
-  /@types/express@4.17.17:
-    resolution: {integrity: sha512-Q4FmmuLGBG58btUnfS1c1r/NQdlp3DMfGDGig8WhfpA2YRUtEkxAjkZb0yvplJGYdF1fsQ81iMDcH24sSCNC/Q==}
+  /@types/express@4.17.21:
+    resolution: {integrity: sha512-ejlPM315qwLpaQlQDTjPdsUFSc6ZsP4AN6AlWnogPjQ7CVi7PYF3YVz+CY3jE2pwYf7E/7HlDAN0rV2GxTG0HQ==}
     dependencies:
       '@types/body-parser': 1.19.2
       '@types/express-serve-static-core': 4.17.35
