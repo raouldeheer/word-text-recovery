@@ -15,8 +15,8 @@ dependencies:
     specifier: ^4.18.2
     version: 4.18.2
   express-fileupload:
-    specifier: ^1.4.0
-    version: 1.4.0
+    specifier: ^1.4.3
+    version: 1.4.3
   express-rate-limit:
     specifier: ^7.1.5
     version: 7.1.5(express@4.18.2)
@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^4.17.17
     version: 4.17.17
   '@types/express-fileupload':
-    specifier: ^1.4.1
-    version: 1.4.1
+    specifier: ^1.4.4
+    version: 1.4.4
   '@types/ip':
     specifier: ^1.1.0
     version: 1.1.0
@@ -104,8 +104,8 @@ packages:
       '@types/node': 18.7.23
     dev: true
 
-  /@types/express-fileupload@1.4.1:
-    resolution: {integrity: sha512-sbl865h1Sser6SF+efpw2F/+roGISj+PRIbMcGXbtzgJQCBAeeBmoSo7sPge/mBa22ymCHfFPtHFsag/wUxwfg==}
+  /@types/express-fileupload@1.4.4:
+    resolution: {integrity: sha512-kxCs5oJ40JPhvh3LpxCeGfuSZIl8/6bk85u1YqNcIbfQCmUm3u+Ao1oOiSt/VdbEPs+V3JQg8giqxAyqXlpbWg==}
     dependencies:
       '@types/busboy': 1.5.0
       '@types/express': 4.17.17
@@ -396,8 +396,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
-  /express-fileupload@1.4.0:
-    resolution: {integrity: sha512-RjzLCHxkv3umDeZKeFeMg8w7qe0V09w3B7oGZprr/oO2H/ISCgNzuqzn7gV3HRWb37GjRk429CCpSLS2KNTqMQ==}
+  /express-fileupload@1.4.3:
+    resolution: {integrity: sha512-vRzZo2YELm68DfR/CX8RMXgeK9BTAANxigrKACPjCXFGEzkCt/QWbqaIXP3W61uaX/hLj0CAo3/EVelpSQXkqA==}
     engines: {node: '>=12.0.0'}
     dependencies:
       busboy: 1.6.0
