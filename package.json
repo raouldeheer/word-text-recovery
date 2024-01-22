@@ -23,7 +23,7 @@
     "ip": "^1.1.8",
     "morgan": "^1.10.0",
     "mylas": "^2.1.13",
-    "node-fetch": "2.6.12",
+    "node-fetch": "2.7.0",
     "xml-formatter": "^3.6.0"
   },
   "devDependencies": {
@@ -33,7 +33,7 @@
     "@types/express-fileupload": "^1.4.4",
     "@types/ip": "^1.1.0",
     "@types/morgan": "^1.9.9",
-    "@types/node-fetch": "^2.6.4",
+    "@types/node-fetch": "^2.6.10",
     "nodemon": "^3.0.2",
     "pnpm": "^8.14.1",
     "typescript": "^5.3.3"
