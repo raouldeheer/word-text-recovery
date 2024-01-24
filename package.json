@@ -24,7 +24,7 @@
     "morgan": "^1.10.0",
     "mylas": "^2.1.13",
     "node-fetch": "2.7.0",
-    "xml-formatter": "^3.6.0"
+    "xml-formatter": "^3.6.2"
   },
   "devDependencies": {
     "@types/adm-zip": "^0.5.5",
