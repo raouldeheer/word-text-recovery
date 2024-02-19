@@ -20,7 +20,7 @@
     "express-fileupload": "^1.4.3",
     "express-rate-limit": "^7.1.5",
     "helmet": "^7.1.0",
-    "ip": "^1.1.8",
+    "ip": "^2.0.1",
     "morgan": "^1.10.0",
     "mylas": "^2.1.13",
     "node-fetch": "2.7.0",
